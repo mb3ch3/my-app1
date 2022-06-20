@@ -1,0 +1,23 @@
+<h2>My Heroes</h2>
+<div class="page">
+    <div class="left">
+        <ul style="list-style-type:none" class="heroes">
+            <li *ngFor="let hero of heroes">
+                <button type="button" (click)="onSelect(hero)">hero number:{{hero.id}}</button>
+                <p>{{hero.name}}</p>
+                {{hero.power}}
+                <hr>
+            </li>
+        </ul>
+    </div>
+    <div class="right" *ngIf="selectedHero">
+        <h2>{{selectedHero.name}} Details</h2>
+        <div>id: {{selectedHero.id}}</div>
+        <div>
+        <label>Hero name: </label>
+        <input  [(ngModel)]="selectedHero.name" placeholder="name"><br>
+        <label>Hero power: </label>
+        <input  [(ngModel)]="selectedHero.power" placeholder="name"><br>
+        </div>
+    </div>
+  </div>
