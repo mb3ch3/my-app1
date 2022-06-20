@@ -6,14 +6,12 @@ Looking into:
 1. The Hero Editor
 2. Display a List
 3. Create a Feature Component
-
-***
 4. Add Services
-*5. Add Navigation
-*6. Get Data from a Server
-*7. Building a Template-driven Form
-*8. Angular Libraries
-      
+5. Add Navigation
+6. Get Data from a Server
+7. Building a Template-driven Form
+8. Angular Libraries
+***      
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.2.
 
 ## Development server
