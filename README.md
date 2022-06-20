@@ -2,10 +2,13 @@
 A test project on the Angular Tour of heroes tutorial.(https://angular.io/tutorial) 
 ***
 Looking into:
-  *The Hero Editor
-*2. Display a List
-*3. Create a Feature Component
-*4. Add Services
+
+1. The Hero Editor
+2. Display a List
+3. Create a Feature Component
+
+***
+4. Add Services
 *5. Add Navigation
 *6. Get Data from a Server
 *7. Building a Template-driven Form
